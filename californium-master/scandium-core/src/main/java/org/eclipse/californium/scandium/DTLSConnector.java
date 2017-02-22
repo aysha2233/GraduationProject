@@ -1271,6 +1271,7 @@ public class DTLSConnector implements Connector {
 	}
 
 	private void sendFlight(DTLSFlight flight) {
+//		我在sendFlight方法中
 
 		byte[] payload = new byte[] {};
 		int maxDatagramSize = maximumTransmissionUnit;
